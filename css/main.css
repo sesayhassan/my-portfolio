@@ -261,3 +261,113 @@ footer p {
 }
 /* end of footer */
 
+/* Media Query Style for Desktop Screen */
+@media (min-width: 900px) {
+  body {
+    font-size: 15px;
+  }
+  /* Header Styles */
+  header {
+    height: 60px;
+    padding: 15px 100px;
+  }
+
+  /* Hero Styles */
+  .hero {
+    padding: 200px 100px;
+  }
+  .hero h1 {
+    font-size: 16px;
+  }
+  .hero h2 {
+    font-size: 45px;
+  }
+  .hero h3 {
+    font-size: 18px;
+  }
+  .socials {
+    margin: 200px 100px;
+  }
+  /* Portfolio Styles */
+  .portfolio {
+    padding: 80px 100px;
+  }
+
+  .project-card {
+    padding: 15px;
+    margin-top: 40px;
+    display: flex;
+  }
+
+  .project-image {
+    width: 50%;
+    margin-right: 30px;
+  }
+
+  .project-content {
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .project-content p {
+    margin-top: 8px;
+  }
+
+  .technologies {
+    margin-top: 20px;
+  }
+
+  .view-source-btn {
+    padding: 8px 30px;
+  }
+
+  /* About styling */
+
+  .about {
+    padding: 80px 100px;
+    display: flex;
+
+  }
+
+  .about-content {
+    width: 50%;
+    margin-right: 30px;
+  }
+
+  .about-image {
+    width: 50%;
+    height: 250px;
+  }
+
+  .about-btn {
+    margin: 20px 0;
+    padding: 8px;
+    border: none;
+    background-color: teal;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  /* end of about */
+
+  /* contact styling */
+.contact {
+  padding: 80px 100px;
+  display: flex;
+}
+
+.contact-details {
+  width: 40%;
+}
+
+.contact form {
+  width: 60%;
+}
+}
+
+.contact-btn {
+  padding: 8px 30px;
+}
+/* end of contact */
+
