@@ -176,6 +176,7 @@ margin-bottom: 8px;
   background-color: #363636;
   border-radius: 10px;
   margin-top: 20px;
+  overflow: hidden;
 }
 
 .about-btn {
